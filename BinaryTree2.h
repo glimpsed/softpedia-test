@@ -3,6 +3,8 @@
 #include <deque>
 #include <iostream>
 
+//Traversal method
+
 enum Traversal
 {
 	Preorder, Postorder, Inorder
@@ -356,6 +358,8 @@ int BinaryTree<T>::size()
 {
 	return dim;
 }
+
+//stack traversal
 
 template <class T>
 void BinaryTree<T>::remove(T val)
