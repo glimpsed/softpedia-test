@@ -1,7 +1,7 @@
 #include <iostream>
 #include "BinaryTree.h"
 
-
+// Softpedia Test - http://mac.softpedia.com
 int main()
 {
 	BinaryTree<int> t;
